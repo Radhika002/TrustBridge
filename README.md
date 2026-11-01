@@ -2,6 +2,7 @@
 # TrustBridge
 
 ### No credit history does not mean no trust.
+🌐 **Live Demo:** https://radhika002.github.io/TrustBridge/
 
 TrustBridge is an explainable alternative credit scoring demo designed for credit-invisible micro-entrepreneurs.
 
@@ -16,6 +17,30 @@ It demonstrates how simple business and financial indicators can be used to gene
 - Transparent score explanation
 - Form validation
 - Responsive design for mobile and desktop
+
+## Project Screenshots
+
+### Home Page
+![TrustBridge Home](screenshots/home.jpeg)
+
+### Dashboard
+![Dashboard Top](screenshots/dashboard-top.jpg)
+![Dashboard Bottom](screenshots/dashboard-bottom.jpg)
+
+### Trust Profile
+![Trust Profile Top](screenshots/Trustprofile-top.jpg)
+![Trust Profile Bottom](screenshots/Trustprofile-bottom.jpg)
+
+### How It Works
+![How It Works](screenshots/how-it-work.jpg)
+
+### Calculator
+![Calculator Top](screenshots/calculator-top.jpg)
+![Calculator Bottom](screenshots/calculator-bottom.jpg)
+
+### Application Form
+![Apply Top](screenshots/apply-top.jpg)
+![Apply Bottom](screenshots/apply-bottom.jpg)
 
 ## Technologies Used
 
