@@ -101,9 +101,16 @@
         <section id="about">
             <h2>About TrustBridge</h2>
             <p>
-                TrustBridge helps identify financial trustworthiness
-                through everyday business and payment behaviour.
-            </p>
+    TrustBridge is an educational prototype that demonstrates
+    how basic business information, such as monthly income,
+    expenses, and business experience, can generate explainable
+    demo indicators for micro-entrepreneurs.
+</p>
+
+<p class="demo-note">
+    It does not measure actual repayment behaviour or determine
+    real creditworthiness.
+</p>
         </section>
         
 <section id="trust-profile">
@@ -118,7 +125,7 @@
 
         <div class="score">
             <h2 id="dashTrustScore">78 / 100</h2>
-            <p>Medium-High Confidence</p>
+            <p>Illustrative Demo Score</p>
         </div>
 
         <p class="demo-note">
@@ -228,6 +235,15 @@
             The calculator combines them using the displayed demo weights.
         </p>
 
+        <div class="score-explanation">
+    <h3>Demo Scoring Formula</h3>
+    <p>
+        Overall Score = (Ability × 0.40) +
+        (Willingness × 0.35) +
+        (Stability × 0.25)
+    </p>
+</div>
+
         <button onclick="calculateScore()">Calculate Score</button>
         <button onclick="resetCalculator()">Reset</button>
 
@@ -246,6 +262,12 @@
 <section id="application">
     <h2>Borrower Application</h2>
     <p>Enter your basic business details to generate a demo assessment.</p>
+
+    <p class="demo-note">
+    This is an educational demo only. Your details are not
+    submitted to a lender or saved in a database. Refreshing
+    the page will reset the demo assessment.
+</p>
 
     <div class="calculator-card">
 

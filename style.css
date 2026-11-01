@@ -454,3 +454,12 @@ nav ul li a.active {
     margin-bottom: 12px;
     line-height: 1.5;
 }
+/* Footer Styling */
+
+footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 22px 15px;
+    font-size: 14px;
+}
