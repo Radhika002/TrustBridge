@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrustBridge | Building Trust Beyond Credit Scores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+       <nav>
+    <h2 class="logo">TrustBridge</h2>
+
+    <ul>
+        <li><a href="#" onclick="showTab('home')">Home</a></li>
+        <li><a href="#" onclick="showTab('dashboard')">Dashboard</a></li>
+        <li><a href="#" onclick="showTab('about')">About</a></li>
+        <li><a href="#" onclick="showTab('trust-profile')">Trust Profile</a></li>
+        <li><a href="#" onclick="showTab('how-it-works')">How It Works</a></li>
+        <li><a href="#" onclick="showTab('calculator')">Calculator</a></li>
+        <li><a href="#" onclick="showTab('application')">Apply</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>No Credit History Does Not Mean No Trust.</h1>
+
+            <p>
+                Building an explainable alternative credit scoring
+                platform for micro-entrepreneurs.
+            </p>
+
+            <button onclick="showTab('application')">
+    Explore TrustBridge
+</button>
+        </section>
+        <!-- Dashboard Section -->
+<section id="dashboard">
+    <h2>TrustBridge Dashboard</h2>
+    <p>Borrower Financial Overview</p>
+
+    <div class="dashboard-container">
+
+    <div class="dashboard-card">
+        <h3>Borrower Name</h3>
+        <h2 id="dashName">Ravi Kumar</h2>
+        <p>Sample Borrower</p>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>Ability Indicator</h3>
+        <p id="dashAbilityIndicator">-- / 100</p>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>Willingness Indicator</h3>
+        <p id="dashWillingnessIndicator">-- / 100</p>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>Stability Indicator</h3>
+        <p id="dashStabilityIndicator">-- / 100</p>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>Overall Indicator Score</h3>
+        <p id="dashOverallScore">-- / 100</p>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>Monthly Income</h3>
+        <h2 id="dashIncome">₹25,000</h2>
+        <p>Business Income</p>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>Monthly Savings</h3>
+        <h2 id="dashSavings">₹10,000</h2>
+        <p>Calculated Savings</p>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>Savings Percentage</h3>
+        <h2 id="dashSavingsPercentage">40%</h2>
+        <p>Income Saved</p>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>Cash Flow Status</h3>
+        <h2 id="dashCashFlow">Positive</h2>
+        <p>Financial Overview</p>
+    </div>
+
+</div>
+</section>
+
+        <section id="about">
+            <h2>About TrustBridge</h2>
+            <p>
+                TrustBridge helps identify financial trustworthiness
+                through everyday business and payment behaviour.
+            </p>
+        </section>
+        
+<section id="trust-profile">
+    <h2>Sample Trust Profile</h2>
+    <p>Meet Ravi Kumar, a micro-entrepreneur from Bengaluru.</p>
+
+    <div class="profile-card">
+        <h3>Ravi Kumar</h3>
+        <p>Occupation: Street Vendor</p>
+        <p>Business Experience: 18 Months</p>
+        <p>Location: Bengaluru</p>
+
+        <div class="score">
+            <h2 id="dashTrustScore">78 / 100</h2>
+            <p>Medium-High Confidence</p>
+        </div>
+
+        <p class="demo-note">
+            *This is a simulated demo score, not real financial data.
+        </p>
+        <div class="score-explanation">
+
+    <h3>How is this Trust Score calculated?</h3>
+
+    <p>
+        TrustBridge uses three demo indicators to calculate
+        an overall score.
+    </p>
+
+    <ul>
+        <li>
+            <strong>Ability to Repay (40%):</strong>
+            Based on the business income and savings pattern.
+        </li>
+
+        <li>
+            <strong>Willingness to Repay (35%):</strong>
+            Uses business experience as an illustrative indicator.
+        </li>
+
+        <li>
+            <strong>Stability of Activity (25%):</strong>
+            Uses business experience as an illustrative indicator.
+        </li>
+    </ul>
+
+    <p>
+        These weights and rules are for demonstration only.
+        They are not validated lending criteria.
+    </p>
+
+</div>
+    </div>
+</section>
+
+
+        
+
+<section id="how-it-works">
+    <h2>How TrustBridge Works</h2>
+    <p>TrustBridge uses three demo indicators to create an easy-to-understand financial overview.</p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>1. Ability to Repay</h3>
+            <p>
+                Looks at the relationship between monthly business
+                income and expenses to calculate a demo savings indicator.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>2. Willingness to Repay</h3>
+            <p>
+                Uses business experience as an illustrative indicator.
+                Actual repayment behaviour is not measured in this demo.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>3. Stability of Activity</h3>
+            <p>
+                Uses the duration of business experience as a simple
+                demo indicator of business activity.
+            </p>
+        </div>
+
+    </div>
+
+    <p class="demo-note">
+        Note: These are illustrative demo rules, not validated
+        financial or lending criteria.
+    </p>
+</section>
+
+  
+
+<section id="calculator">
+    <h2>Calculate Trust Score</h2>
+    <p>Enter three demo indicator scores to calculate an overall score.</p>
+
+    <div class="calculator-card">
+
+        <label for="ability">Ability to Repay (0-100)</label>
+        <input type="number" id="ability" min="0" max="100"
+            placeholder="Enter score">
+        <small>Demo weight: 40% — based on the income and savings indicator.</small>
+
+        <label for="willingness">Willingness to Repay (0-100)</label>
+        <input type="number" id="willingness" min="0" max="100"
+            placeholder="Enter score">
+        <small>Demo weight: 35% — uses business experience as an illustrative indicator.</small>
+
+        <label for="stability">Stability of Activity (0-100)</label>
+        <input type="number" id="stability" min="0" max="100"
+            placeholder="Enter score">
+        <small>Demo weight: 25% — also uses business experience in this prototype.</small>
+
+        <p>
+            Enter a value between 0 and 100 for each indicator.
+            The calculator combines them using the displayed demo weights.
+        </p>
+
+        <button onclick="calculateScore()">Calculate Score</button>
+        <button onclick="resetCalculator()">Reset</button>
+
+        <div id="result"></div>
+
+        <p class="demo-note">
+            This is an educational demonstration, not a real credit
+            score or loan approval decision.
+        </p>
+
+    </div>
+</section>
+
+
+
+<section id="application">
+    <h2>Borrower Application</h2>
+    <p>Enter your basic business details to generate a demo assessment.</p>
+
+    <div class="calculator-card">
+
+        <label for="borrowerName">Borrower Name</label>
+        <input type="text" id="borrowerName"
+            placeholder="Enter your full name">
+        <small>Enter the name of the business owner.</small>
+
+        <label for="businessName">Business Name</label>
+        <input type="text" id="businessName"
+            placeholder="Enter business name">
+        <small>Enter the name of your shop or business.</small>
+
+        <label for="businessType">Business Type</label>
+        <input type="text" id="businessType"
+            placeholder="Example: Street Vendor">
+        <small>For example: Grocery Shop, Tailoring, Street Vendor.</small>
+
+        <label for="businessExperience">Business Experience (Months)</label>
+        <input type="number" id="businessExperience"
+            min="0" placeholder="Enter months">
+        <small>How many months have you been running this business?</small>
+
+        <label for="monthlyIncome">Monthly Business Income (₹)</label>
+        <input type="number" id="monthlyIncome"
+            min="0" placeholder="Enter monthly income">
+        <small>Enter your approximate total business income per month.</small>
+
+        <label for="monthlyExpenses">Monthly Business Expenses (₹)</label>
+        <input type="number" id="monthlyExpenses"
+            min="0" placeholder="Enter monthly expenses">
+        <small>Enter your approximate total business expenses per month.</small>
+
+        <p>
+            <input type="checkbox" id="consent">
+            I agree to use these details for this demo assessment.
+        </p>
+
+        <button type="button" onclick="submitApplication()">
+            Submit Application
+        </button>
+
+        <div id="applicationResult"></div>
+
+    </div>
+</section>
+
+
+
+</main>
+<footer>
+    <p>© 2026 TrustBridge. Building Financial Trust.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
